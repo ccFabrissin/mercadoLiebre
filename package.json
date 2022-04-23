@@ -1,10 +1,9 @@
 {
   "name": "mercadoliebre",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +11,14 @@
   "dependencies": {
     "express": "^4.17.3",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccFabrissin/mercadoLiebre.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ccFabrissin/mercadoLiebre/issues"
+  },
+  "homepage": "https://github.com/ccFabrissin/mercadoLiebre#readme",
+  "description": ""
 }
