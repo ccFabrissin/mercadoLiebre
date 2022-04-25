@@ -1,0 +1,39 @@
+@import url(/css/normalize.css);
+:root{
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --grisOscuro: #666;
+    --grisClaro: #ebebeb;
+    --verde: #39b54a;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+header{
+    background-color: var(--amarillo);
+}
+
+h4{
+    font-size: 24px;
+}
+
+.precios{
+    font-size: 18px;
+    }
+
+.descuentos{
+    font-size: 16px;
+    }
+
+.descripciones{
+    font-size: 16px;
+    }
+.burger-menu{
+    background-color: var(--celeste);
+    color:white;
+    font-size:2em;
+}
