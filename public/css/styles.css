@@ -8,6 +8,8 @@
     --verde: #39b54a;
 }
 
+*{box-sizing: border-box;}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -36,4 +38,11 @@ h4{
     background-color: var(--celeste);
     color:white;
     font-size:2em;
+    margin:auto;
+    width: 30px;
+    padding: 5px;
+}
+
+img{
+    width: 100vw;
 }
