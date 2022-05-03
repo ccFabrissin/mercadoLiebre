@@ -8,3 +8,46 @@
     --verde: #39b54a;
 }
 
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--amarillo);
+}
+
+.headerPart1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 200px;
+}
+
+.barraDeBusqueda{
+    background-color: #ebebeb;
+    color: #666;
+    border: black solid 1px;
+    font-size: 12px;
+}
+
+.compraCuotas{
+    text-align: center;
+}
+
+.banner{
+    width: 300px;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+    border: var(--grisOscuro) solid 1px;
+}
+
+
+.imgProductos{
+    width: 300px;
+}
