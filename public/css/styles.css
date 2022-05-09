@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+p{
+    font-size: 12px;
+}
+
 header{
     background-color: var(--amarillo);
     padding: 2px;
@@ -86,7 +90,6 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #ebebeb;
-    border: var(--grisOscuro) solid 1px;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     margin: 5px;
     padding: 3px;
@@ -99,14 +102,41 @@ header{
 
 .descuentos{
     margin: 5px;
+    font-size: 16px;
 }
 
 .precios{
     margin: 5px;
+    font-size: 18px;
+}
+
+.descripciones{
+    margin: 5px;
+    font-size: 16px;
 }
 
 .seccionProductos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.iconosFooter{
+    color:#1259c3;
+    font-size: 25px;
+}
+
+.opcionesDelFooter{
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.seccionesFooter{
+    text-align: center;
+}
+
+.titulos{
+    font-size: 24px;
 }
