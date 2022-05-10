@@ -11,3 +11,11 @@
     margin: 10px 10px 10px 15px;
     padding: 2px;
 }
+
+.titulosForm{
+    font-weight: bolder;
+}
+
+.checkboxes{
+    margin-left: 95px;
+}

@@ -99,6 +99,11 @@ header{
 .productos:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
+
+.productos:hover .descripciones{
+    opacity: 100%;
+}
+
 .camioncito{
     display: block;
     font-size: 16px;
@@ -135,6 +140,7 @@ header{
     margin: 5px;
     font-size: 16px;
     color: #666;
+    opacity: 0%;
 }
 
 
