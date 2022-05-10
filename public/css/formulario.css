@@ -1,0 +1,13 @@
+.perfilDeUsuario{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfilDeUsuario div{
+    margin-left: 95px;
+}
+
+.mainForm{
+    margin: 10px 10px 10px 15px;
+    padding: 2px;
+}
