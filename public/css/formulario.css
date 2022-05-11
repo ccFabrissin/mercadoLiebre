@@ -14,8 +14,37 @@
 
 .titulosForm{
     font-weight: bolder;
+    font-size: 1.2em;
 }
 
 .checkboxes{
     margin-left: 95px;
+}
+
+.inputFormularios{
+    width: 100%;
+}
+
+input:invalid{
+    color: red;
+}
+
+.formBotones{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+
+.botonesForms{
+    background-color: #ebebeb;
+    color: black;
+}
+
+.botonesForms:hover{
+    background-color: #0022AA;
+    color: #ebebeb;
 }

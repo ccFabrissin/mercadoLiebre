@@ -23,9 +23,12 @@ header{
 }
 
 
-
 .logo{
     width: 50%;
+}
+
+.fomularioBusqueda{
+    position: relative;
 }
 
 .barraDeBusqueda{
@@ -35,6 +38,14 @@ header{
     font-size: 12px;
     padding: 5px;
     border-radius: 5%;
+    margin: auto;
+    
+}
+
+.botonBusqueda{
+position: absolute;
+right: 0px;
+top: 0px
 }
 
 .compraCuotas{
@@ -43,6 +54,10 @@ header{
 
 .banner{
     width: 100vw;
+}
+
+.productos:hover .contenedorPrecioDescuento{
+    transform: rotate(90);
 }
 
 .barraDeNavegacion{
@@ -93,6 +108,7 @@ header{
     margin: 5px;
     padding: 3px;
     border: lightgray 0.10px solid;
+    width: 90vw;
     
 }
 
@@ -100,8 +116,15 @@ header{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
-.productos:hover .descripciones{
-    opacity: 100%;
+
+.registerEntero{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+    max-width: max-content;
+
 }
 
 .camioncito{
@@ -117,10 +140,16 @@ header{
     right: 20px;
     top: -15px;
     color: #39b54a;
+    transition: transform .7s ;
+}
+
+.productos:hover .camioncito{
+    transform: rotate(-90deg);
 }
 
 .imgProductos{
-    width: 300px;
+    width: 250px;
+    align-self: center;
 }
 
 .descuentos{
@@ -140,7 +169,7 @@ header{
     margin: 5px;
     font-size: 16px;
     color: #666;
-    opacity: 0%;
+    opacity: 100%;
 }
 
 
@@ -153,7 +182,7 @@ header{
 
 .iconosFooter{
     color:#1259c3;
-    font-size: 25px;
+    font-size: 2em;
 }
 
 .contenedorPrecioDescuento{
@@ -173,6 +202,7 @@ header{
 
 .seccionesFooter{
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .titulos{
@@ -183,6 +213,7 @@ header{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
     
 }
 
@@ -196,6 +227,8 @@ header{
 .contenedorHamburgesa{
     display: none;
 }
+
+
 
 .barraDeNavegacion{
     display: flex;
@@ -222,9 +255,15 @@ header{
     width: 33%;
 }
 
+.productos{
+    width: 45vw;
 }
 
-@media(min-width: 1200px){
+
+
+}
+
+@media(min-width: 1024px){
     .copy-header, .barraDeNavegacion{
         max-width: 1200px;
         margin:auto;
@@ -241,4 +280,34 @@ header{
     .logo{
         width: 25%;
     }
+
+    .productos{
+        width: 20vw;
+    }
+    
+    .imgProductos{
+        width: 200px;}
+
+    .descripciones{
+            margin: 5px;
+            font-size: 16px;
+            color: #666;
+            opacity: 0%;
+    
+
+            
+    }
+    
+    .seccionesFooter:hover .iconosFooter{
+        color:#03264C
+    }
+    
+    .productos:hover .descripciones{
+            opacity: 100%;
+    
+    }
+    
+
+    
+
 }
