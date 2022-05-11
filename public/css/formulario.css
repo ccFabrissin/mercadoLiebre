@@ -26,8 +26,8 @@
 }
 
 input:invalid{
-    color: red;
-}
+    text-decoration: underline wavy red;
+    }
 
 .formBotones{
     display: flex;
